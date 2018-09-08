@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ! Convert JMX files so Java can read them on OpenVMS
 ! This will be needed if the JMX is in VARIABLE format.
 !
@@ -7,4 +8,15 @@
 !
 RECORD
         CARRIAGE_CONTROL        carriage_return
+=======
+! Convert JMX files so Java can read them on OpenVMS
+! This will be needed if the JMX is in VARIABLE format.
+!
+! Usage:
+!	CONVERT/FDL=CONVERTJMX input.jmx output.jmx
+!
+!
+RECORD
+        CARRIAGE_CONTROL        carriage_return
+>>>>>>> c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd
         FORMAT                  stream_lf

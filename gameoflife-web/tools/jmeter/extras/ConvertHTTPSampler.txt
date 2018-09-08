@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 === HTTPSampler to HTTPSampler2 convertion ===
 
 If the testcase was created with an old version, load it into 2.1.1 and save it.
@@ -13,4 +14,21 @@ New
 ===
 <HTTPSampler2 guiclass="HttpTestSampleGui2" testclass="HTTPSampler2" testname="HTTP Request" enabled="true">
 ...
+=======
+=== HTTPSampler to HTTPSampler2 convertion ===
+
+If the testcase was created with an old version, load it into 2.1.1 and save it.
+Edit the testcase and replace the following:
+
+Old
+===
+<HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="HTTP Request" enabled="true">
+...
+</HTTPSampler>
+
+New
+===
+<HTTPSampler2 guiclass="HttpTestSampleGui2" testclass="HTTPSampler2" testname="HTTP Request" enabled="true">
+...
+>>>>>>> c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd
 </HTTPSampler2>
